@@ -1,0 +1,27 @@
+@import url(https://db.onlinewebfonts.com/c/c5e417a15ef065265661bf7601f6fe1c?family=Proxima+Nova+Medium+Regular);
+@import url(https://db.onlinewebfonts.com/c/433a513cac0c0ddffe0edc4de3b1c1fc?family=Red+Hat+Display);
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Proxima Nova Medium Regular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Red Hat Display", sans-serif;
+}
